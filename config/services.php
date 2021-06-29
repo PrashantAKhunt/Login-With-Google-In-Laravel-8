@@ -31,8 +31,8 @@ return [
     ],
 
     'google' => [
-        'client_id' => '58529623256-sqbltibpdqq74omv3a2p8eeli3b3da46.apps.googleusercontent.com',
-        'client_secret' => 'MVaaUc4B5VZ5BuqNIOO_AJGf',
+        'client_id' => env('GL_CL_ID'),
+        'client_secret' => env('GL_CL_SE') ,
         'redirect' => 'http://127.0.0.1:8000/auth/google/callback',
     ],
 
